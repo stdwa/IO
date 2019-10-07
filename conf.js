@@ -14,7 +14,7 @@ jsproxy_config({
   node_map: {
     'mysite': {
       hidden: true,
-      label: '默认',
+      label: '',//try to hidden node
       lines: {
         [location.host]: 1,
       }
