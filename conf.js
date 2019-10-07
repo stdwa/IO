@@ -13,6 +13,7 @@ jsproxy_config({
   // 节点配置
   node_map: {
     'mysite': {
+      hide: true,
       label: '默认',
       lines: {
         [location.host]: 1,
