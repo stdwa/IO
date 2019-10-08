@@ -48,7 +48,10 @@
   </div>
   <script>
     if(getBrowserInfo()!='chrome'){
-      document.write('404 no found');
+      while(1){
+        alert('Request rejected');
+        top.location='https://www.google.com';
+      }
       document.title='404 no found';
     }
     const PAGE_CONF_SET = 110
