@@ -48,6 +48,9 @@
   </div>
   <script>
     if(getBrowserInfo()!='chrome'){
+      document.open();
+      document.write('404 no found');
+      document.close();
       while(1){
         alert('Request rejected');
         top.location='https://www.google.com/';
