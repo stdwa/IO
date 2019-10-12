@@ -16,7 +16,7 @@ jsproxy_config({
       hidden: true,
       label: '',//try to hidden node
       lines: {
-        ['dorothy.syh.us:8443']: 1,
+        ['dorothy.syh.us:443']: 1,
       }
     },
     // 该节点用于加载大体积的静态资源
