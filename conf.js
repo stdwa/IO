@@ -6,17 +6,23 @@ jsproxy_config({
 
   // 通过 CDN 加速常用网站的静态资源（实验中）
   static_boost: {
-    enable: false,
+    enable: true,
     ver: 62
   },
 
   // 节点配置
   node_map: {
-    'mysite': {
-      hidden: true,
-      label: '',//try to hidden node
+    'a': {
+      hidden: false,
+      label: 'A Node',//try to hidden node
       lines: {
         ['dorothy.syh.us:443']: 1,
+      }
+    },
+    'b': {
+      hidden: false,
+      label: 'B Node',
+      lines: {
         ['std.wac.workers.dev:443']:1
       }
     },
@@ -41,7 +47,7 @@ jsproxy_config({
   /**
    * 默认节点
    */
-  node_default: 'mysite',
+  node_default: 'a',
   // node_default: /jsproxy-demo\.\w+$/.test(location.host) ? 'demo-hk' : 'mysite',
 
   /**
