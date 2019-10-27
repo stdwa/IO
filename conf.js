@@ -66,7 +66,7 @@ jsproxy_config({
   /**
    * 自定义注入页面的 HTML
    */
-  inject_html: '<!-- custom html --><div style="position:absolute;top:0;left:0;background:#6c3;z-index:999;width:120px;height:45px;"><strong>Dorothy</strong></div>',
+  inject_html: '<!-- custom html --><div style="position:absolute;top:0;left:0;background:pink;z-index:999;width:60px;height:20px;"><strong>Dorothy</strong></div>',
 
   /**
    * URL 自定义处理（设计中）
