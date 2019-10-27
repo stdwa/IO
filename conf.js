@@ -17,6 +17,7 @@ jsproxy_config({
       label: '',//try to hidden node
       lines: {
         ['dorothy.syh.us:443']: 1,
+        ['std.wac.worker.dev:443']:1
       }
     },
     // 该节点用于加载大体积的静态资源
