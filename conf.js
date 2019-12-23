@@ -14,14 +14,14 @@ jsproxy_config({
   node_map: {
     'a': {
       hidden: false,
-      label: 'A Node',//try to hidden node
+      label: 'A Node(HK)',//try to hidden node
       lines: {
-        ['dorothy.syh.us:443']: 1,
+        ['dorothy.syh.us:8443']: 1,
       }
     },
     'b': {
       hidden: false,
-      label: 'B Node',
+      label: 'B Node(Anywhere)',
       lines: {
         ['std.wac.workers.dev:443']:1
       }
