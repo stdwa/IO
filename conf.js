@@ -14,16 +14,23 @@ jsproxy_config({
   node_map: {
     'a': {
       hidden: false,
-      label: 'A Node(HK)',//try to hidden node
+      label: 'A Node(HongKong)',//try to hidden node
       lines: {
         ['dorothy.syh.us:8443']: 1,
       }
     },
     'b': {
       hidden: false,
-      label: 'B Node(Anywhere)',
+      label: 'B Node(Automatic)',
       lines: {
         ['std.wac.workers.dev:443']:1
+      }
+    },
+     'c': {
+      hidden: false,
+      label: 'C Node(Cambodia)',
+      lines: {
+        ['flora.syh.us:8443']:1
       }
     },
     // 该节点用于加载大体积的静态资源
