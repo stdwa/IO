@@ -31,6 +31,12 @@ jsproxy_config({
       label: 'C Node(Cambodia)',
       lines: {
         ['flora.syh.us:8443']:1
+      },
+     'd': {
+      hidden: false,
+      label: 'D Node(Canada)',
+      lines: {
+        ['alicia.syh.us:8443']:1
       }
     },
     // 该节点用于加载大体积的静态资源
