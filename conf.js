@@ -26,13 +26,6 @@ jsproxy_config({
         ['std.wac.workers.dev:443']:1
       }
     },
-    'c': {
-      hidden: false,
-      label: 'C Node(Cambodia)',
-      lines: {
-        ['flora.syh.us:8443']:1
-      }
-    },
     'd': {
       hidden: false,
       label: 'D Node(Canada)',
